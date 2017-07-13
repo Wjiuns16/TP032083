@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Maersk Line</h1>
+    <p></p><img src="../Image/MaerskLine.jpg" alt="Mountain View" style="width:1024px;height:400px;"></p>
+    <p><a href="https://my.maerskline.com/" class="btn btn-primary btn-lg">Learn more about Maersk Line &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>About Us</h2>
+        <p>To more about our company details and information?</p>
+        <p><a class="btn btn-default" @Html.ActionLink("Learn more", "About", "Todos")</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Contact Us</h2>
+        <p>Please feel free to contact us.</p>
+        <p><a class="btn btn-default" @Html.ActionLink("Learn more", "Contact", "Todos")</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>FAQ</h2>
+        <p>Here are the popular questions!</p>
+        <p><a class="btn btn-default" @Html.ActionLink("Learn more", "Faq", "Todos")</a></p>
+    </div>
+</div>
